@@ -1,0 +1,26 @@
+.about {
+  position: relative;
+  background: url("../img/about-bg.png") no-repeat;
+  color: $color-white;
+  @media screen and (max-width: 992px) {
+    background: $color-dark-gray;
+  }
+  &__box {
+    margin-left: auto;
+    width: 50%;
+    @media screen and (max-width: 992px) {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    padding-bottom: 40px;
+    color: $color-white;
+  }
+  p {
+    padding-bottom: 30px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}

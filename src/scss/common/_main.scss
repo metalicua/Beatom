@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: $font-default;
+  color: $color-white;
+}
+
+img {
+  max-width: 100%;
+}
+.container {
+  padding: 0 10px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.section {
+  padding: 35px 0;
+  color: $color-ligth-brown;
+
+  &__title {
+    text-align: center;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+}

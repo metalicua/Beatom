@@ -1,0 +1,39 @@
+// Common
+@import "common/fonts";
+@import "common/variables";
+@import "common/typography";
+@import "common/main";
+
+// Custom
+
+@import "custom/slider_arrow";
+
+//Elements
+
+@import "elements/sprite";
+@import "elements/btn";
+@import "elements/form";
+@import "elements/popup";
+
+//Slick-Slider
+
+@import "slick_slider/slick-theme.scss";
+@import "slick_slider/slick.scss";
+
+// Parts
+@import "parts/header";
+@import "parts/services";
+@import "parts/partners";
+@import "parts/about";
+@import "parts/progect";
+@import "parts/price";
+@import "parts/feedback";
+@import "parts/contacts";
+@import "parts/footer";
+
+//Font Awesome
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";

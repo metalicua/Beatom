@@ -1,0 +1,47 @@
+.arrow_right,
+.arrow_left {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  border: 1px solid $color-white;
+  cursor: pointer;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid $color-white;
+    border-left: 3px solid $color-white;
+  }
+  &:hover {
+    border: 1px solid $color-yellow;
+    transition: $transition-base;
+  }
+  &:hover:after {
+    border-bottom: 3px solid $color-yellow;
+    border-left: 3px solid $color-yellow;
+    transition: $transition-base;
+  }
+}
+
+.arrow_left {
+  top: 40%;
+  left: -8%;
+
+  &::after {
+    top: 36%;
+    left: 37%;
+    transform: rotate(45deg);
+  }
+}
+.arrow_right {
+  top: 40%;
+  right: -8%;
+
+  &::after {
+    top: 36%;
+    left: 32%;
+    transform: rotate(-135deg);
+  }
+}

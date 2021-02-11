@@ -1,0 +1,48 @@
+.form {
+  padding: 25px 30px;
+  border: 1px solid $color-ligth-red;
+  form {
+    p {
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid $color-ligth-red;
+    }
+    label {
+      font-size: $font-size-16;
+      color: $color-dark;
+      letter-spacing: 1.1px;
+    }
+    input {
+      width: calc(100% - 60px);
+      background-color: transparent;
+      border: none;
+      font-size: $font-size-16;
+    }
+  }
+}
+
+.lable_position {
+  padding-top: 20px;
+  position: relative;
+}
+.for-text-area {
+  position: absolute;
+  top: 0;
+}
+#text {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  width: 100%;
+}
+.form-btn {
+  padding: 10px 15px;
+  background-color: $color-yellow;
+  color: $color-dark-gray;
+  border: 1px solid $color-yellow;
+  &:hover {
+    color: $color-dark-gray;
+    border: 1px solid $color-dark-gray;
+    transition: $transition-base;
+  }
+}

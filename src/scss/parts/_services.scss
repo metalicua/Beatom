@@ -1,0 +1,52 @@
+.services {
+  &__title {
+    padding-bottom: 20px;
+  }
+  &__discription {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: $font-size-24;
+  }
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media screen and (max-width: 576px) {
+      justify-content: space-around;
+    }
+  }
+  &__item {
+    margin-bottom: 20px;
+    width: calc(33% - 10px);
+    border: 1px solid $color-yellow;
+    @media screen and (max-width: 768px) {
+      width: calc(50% - 10px);
+    }
+    @media screen and (max-width: 576px) {
+      width: 90%;
+    }
+    .item-box {
+      display: flex;
+      align-items: center;
+      padding: 10px 15px;
+    }
+    .item-discriptiom {
+      margin-left: 20px;
+    }
+  }
+  &__button {
+    padding-top: 20px;
+    text-align: center;
+  }
+  &__link {
+    padding: 15px 20px;
+    color: $color-dark-gray;
+    border: 1px solid $color-dark-gray;
+    &:hover {
+      background-color: $color-yellow;
+      border: 1px solid $color-yellow;
+      color: $color-dark-gray;
+      transition: $transition-base;
+    }
+  }
+}
